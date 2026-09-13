@@ -68,5 +68,4 @@ The dataset is available through the ESA Kelvins Collision Avoidance Challenge. 
 B.Tech – Computer Science and Engineering (AI & Data Science)
 
 
-*This is an exploratory research project conducted to study early satellite collision-risk prediction using machine learning. The results are intended for research and learning purposes only.*
 **Note:** This project is an exploratory study of whether temporal CDM information can improve early high-risk prediction. The results should be interpreted as methodological findings rather than operational recommendations.
