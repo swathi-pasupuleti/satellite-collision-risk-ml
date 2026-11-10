@@ -47,14 +47,15 @@ Because high-risk events are rare, particular attention was given to **Recall** 
 - Performance generally improves as the prediction point approaches TCA.
 - Overall, the evolution of CDM information improves the ranking of high-risk events early, though identifying more of them without more false alarms remains challenging.
 
-##PR-AUC, mean over repeated CV:
+### Results: PR-AUC (mean over repeated stratified 5-fold CV)
 
-Lead time	 Persistence	    Single-CDM	Temporal
-6 days	     0.161	             0.233	0.237
-5 days	     0.197	             0.281	0.372
-4 days	     0.252	             0.363	0.526
-3 days	     0.323	             0.442	0.619
-2 days	     0.459            	 0.594	0.710
+| Lead time (days before TCA) | Persistence | Single-CDM | Temporal |
+|:---:|:---:|:---:|:---:|
+| 6 | 0.161 | 0.233 | 0.237 |
+| 5 | 0.197 | 0.281 | 0.372 |
+| 4 | 0.252 | 0.363 | 0.526 |
+| 3 | 0.323 | 0.442 | 0.619 |
+| 2 | 0.459 | 0.594 | **0.710** |
 
 ## Why This Matters
 
